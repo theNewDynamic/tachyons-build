@@ -41,7 +41,7 @@
 @import './src/_border-style';
 @import './src/_border-widths';
 @import './src/_box-shadow';
-@import './src/_code';
+/*@import './src/_code';*/
 @import './src/_coordinates';
 @import './src/_clears';
 @import './src/_display';
@@ -79,7 +79,7 @@
 @import './src/_hovers';
 @import './src/_z-index';
 @import './src/_nested';
-@import './src/_styles';
+
 
 
 
