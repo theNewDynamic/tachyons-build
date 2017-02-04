@@ -92,6 +92,7 @@
 /* Addons */
 
 @import './addons/_font-family';
+@import './addons/_flexbox';
 
 /* Debugging */
 /*@import './src/_debug-children';

@@ -564,12 +564,7 @@ img { max-width: 100%; }
 .shadow-3 { box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, .2 ); }
 .shadow-4 { box-shadow: 2px 2px 8px 0 rgba( 0, 0, 0, .2 ); }
 .shadow-5 { box-shadow: 4px 4px 8px 0 rgba( 0, 0, 0, .2 ); }
-/*
-
-   CODE
-
-*/
-.pre { overflow-x: auto; overflow-y: hidden; overflow: scroll; }
+/*@import './src/_code';*/
 /*
 
    COORDINATES
@@ -1943,13 +1938,6 @@ img { max-width: 100%; }
 .nested-links a { color: #357edd; -webkit-transition: color .15s ease-in; transition: color .15s ease-in; }
 .nested-links a:hover { color: #96ccff; -webkit-transition: color .15s ease-in; transition: color .15s ease-in; }
 .nested-links a:focus { color: #96ccff; -webkit-transition: color .15s ease-in; transition: color .15s ease-in; }
-/*
-
-  STYLES
-
-  Add custom styles here.
-
-*/
 /* Variables */
 /* Importing here will allow you to override any variables in the modules */
 /*
@@ -2009,18 +1997,8 @@ img { max-width: 100%; }
 /* Monospaced Typefaces (for code) */
 /* From http://cssfontstack.com */
 code, .code { font-family: Consolas, monaco, monospace; }
-.courier { font-family: 'Courier Next', courier, monospace; }
-/* Sans-Serif Typefaces */
-.helvetica { font-family: 'helvetica neue', helvetica, sans-serif; }
-.avenir { font-family: 'avenir next', avenir, sans-serif; }
-/* Serif Typefaces */
-.athelas { font-family: athelas, georgia, serif; }
-.georgia { font-family: georgia, serif; }
-.times { font-family: times, serif; }
-.bodoni { font-family: "Bodoni MT", serif; }
-.calisto { font-family: "Calisto MT", serif; }
-.garamond { font-family: garamond, serif; }
-.baskerville { font-family: baskerville, serif; }
+.flex-grow { -webkit-box-flex: 1; -ms-flex-positive: 1; flex-grow: 1; }
+.flex-shrink { -ms-flex-negative: 1; flex-shrink: 1; }
 /* Debugging */
 /*@import './src/_debug-children';
 @import './src/_debug-grid';*/
